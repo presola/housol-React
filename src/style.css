@@ -32,6 +32,7 @@
   --dl-color-secondary-60: #c6f3ebff;
   --dl-color-secondary-80: #baf2f9ff;
   --dl-size-size-maxwidth: 1400px;
+  --dl-color-natural-grey1: rgba(255, 255, 255, 1);
   --dl-color-secondary-100: #9aede0ff;
   --dl-radius-radius-round: 50%;
   --dl-space-space-halfunit: 8px;
@@ -221,6 +222,13 @@
   font-weight: 400px;
   font-stretch: normal;
 }
+.LargeButtontext {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Nunito Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
 .MediumButtontext {
   font-size: 14px;
   font-style: normal;
@@ -258,6 +266,20 @@
   font-weight: 400px;
   font-stretch: normal;
 }
+.Buttontext {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Nunito Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Heading1 {
+  font-size: 56px;
+  font-style: normal;
+  font-family: Nunito Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
 .Heading3 {
   font-size: 40px;
   font-style: normal;
@@ -276,6 +298,13 @@
   font-size: 16px;
   font-style: normal;
   font-family: Nunito;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Mediumfieldlabel {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Nunito Sans;
   font-weight: 400px;
   font-stretch: normal;
 }

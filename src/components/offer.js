@@ -17,26 +17,24 @@ const Offer = (props) => {
           />
           <span className="offer-text">{props.Location}</span>
         </div>
-        <div className="offer-group12">
+        <div className="offer-container">
           <div className="offer-frame24">
             <img
               alt="materialsymbolsbedoutline7038"
               src="/external/materialsymbolsbedoutline7038-xgr7.svg"
               className="offer-materialsymbolsbedoutline"
             />
-            <span className="offer-text1 Smallbodytext">
+            <span className="Smallbodytext offer-text1">
               <span>4 Bed</span>
             </span>
           </div>
-          <div className="offer-frame25">
+          <div className="offer-frame241">
             <img
               alt="Vector7039"
               src="/external/vector7039-6p39.svg"
               className="offer-vector"
             />
-            <span className="offer-text3 Smallbodytext">
-              <span>3 Bath</span>
-            </span>
+            <span className="Smallbodytext offer-text3">3 Bath</span>
           </div>
           <div className="offer-frame26">
             <img
@@ -44,13 +42,13 @@ const Offer = (props) => {
               src="/external/materialsymbolsgarageoutline7039-50ba.svg"
               className="offer-materialsymbolsgarageoutline"
             />
-            <span className="offer-text5 Smallbodytext">
+            <span className="Smallbodytext offer-text4">
               <span>2 Garage</span>
             </span>
           </div>
         </div>
-        <div className="offer-container">
-          <span className="offer-text7">{props.price}</span>
+        <div className="offer-container1">
+          <span className="offer-text6">{props.price}</span>
           <button type="button" className="offer-button button">
             {props.button}
           </button>

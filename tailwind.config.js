@@ -2,6 +2,9 @@ module.exports = {
   "theme": {
     "extend": {
       "colors": {
+        "natural": {
+          "grey1": "rgba(255, 255, 255, 1)"
+        },
         "Primary": {
           "20": "#b2edc5ff",
           "40": "#83d7a1ff",

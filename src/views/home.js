@@ -1,10 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Script from 'dangerous-html/react'
 
 import { Helmet } from 'react-helmet'
 
-import Offer from '../components/offer'
+import Offers from '../components/offers'
 import './home.css'
 
 const Home = (props) => {
@@ -90,32 +89,34 @@ const Home = (props) => {
                 </div>
                 <div className="home-border">
                   <div className="home-filter">
-                    <img
-                      alt="image"
-                      src="/Icons/location.svg"
-                      className="home-image"
-                    />
-                    <input
-                      type="text"
-                      placeholder="Enter a location"
-                      className="home-textinput input"
-                    />
-                    <input
-                      type="date"
-                      placeholder="Date"
-                      className="home-textinput1 input"
-                    />
-                    <select>
-                      <option value="oneBedroom">One Bedroom</option>
-                      <option value="twoBedroom">Two Bedroom</option>
-                      <option value="threeBedroom">Three Bedroom</option>
-                    </select>
-                    <div className="home-search">
+                    <div className="home-container4">
                       <img
                         alt="image"
-                        src="/Icons/search.svg"
-                        className="home-icon04"
+                        src="/Icons/location.svg"
+                        className="home-image"
                       />
+                      <input
+                        type="text"
+                        placeholder="Enter a location"
+                        className="home-textinput input"
+                      />
+                    </div>
+                    <div className="home-container5">
+                      <select className="home-select">
+                        <option value="select" selected>
+                          Select Room
+                        </option>
+                        <option value="oneBedroom">One Bedroom</option>
+                        <option value="twoBedroom">Two Bedroom</option>
+                        <option value="threeBedroom">Three Bedroom</option>
+                      </select>
+                      <div className="home-search">
+                        <img
+                          alt="image"
+                          src="/Icons/search.svg"
+                          className="home-icon04"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -159,7 +160,7 @@ const Home = (props) => {
           </div>
         </div>
       </section>
-      <div className="home-container4">
+      <div className="home-container6">
         <h2 className="home-header01">How It Works</h2>
         <div className="home-frame28">
           <div className="home-frame30">
@@ -203,42 +204,15 @@ const Home = (props) => {
             </p>
           </div>
           <div className="home-sorting">
-            <button className="home-option3 button-option button">2022</button>
+            <button className="home-option4 button-option button">2022</button>
             <button className="button-option button">2023</button>
             <button className="button-option button">2024</button>
           </div>
         </div>
-        <div className="home-offers">
-          <Link to="/">
-            <div className="home-offer-container">
-              <Offer Image="/Offers/offers-11-1500w.png"></Offer>
-            </div>
-          </Link>
-          <Link to="/">
-            <div className="home-offer-container1">
-              <Offer
-                Image="/Offers/offers-21-1500w.png"
-                Guides="54 Local guides"
-                Location="Barcelona, Spain"
-              ></Offer>
-            </div>
-          </Link>
-          <Link to="/">
-            <div className="home-offer-container2">
-              <Offer
-                Image="/Offers/offers-31-1500w.png"
-                Guides="34 Local Guides"
-                Location="Machu Picchu, Peru"
-              ></Offer>
-            </div>
-          </Link>
-        </div>
+        <Offers></Offers>
         <div className="home-pagination">
           <button className="home-previous button-option button">
-            <svg viewBox="0 0 1024 1024" className="home-icon05">
-              <path d="M658 708l-60 60-256-256 256-256 60 60-196 196z"></path>
-            </svg>
-            <span className="home-text20">See More</span>
+            <span>See More</span>
           </button>
         </div>
       </section>
@@ -274,14 +248,14 @@ const Home = (props) => {
                 <svg
                   viewBox="0 0 1024 1024"
                   data-role="accordion-icon-closed"
-                  className="home-icon07"
+                  className="home-icon05"
                 >
                   <path d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 1024 1024"
                   data-role="accordion-icon-open"
-                  className="home-icon09"
+                  className="home-icon07"
                 >
                   <path d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                 </svg>
@@ -310,14 +284,14 @@ const Home = (props) => {
                 <svg
                   viewBox="0 0 1024 1024"
                   data-role="accordion-icon-closed"
-                  className="home-icon11"
+                  className="home-icon09"
                 >
                   <path d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 1024 1024"
                   data-role="accordion-icon-open"
-                  className="home-icon13"
+                  className="home-icon11"
                 >
                   <path d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                 </svg>
@@ -346,14 +320,14 @@ const Home = (props) => {
                 <svg
                   viewBox="0 0 1024 1024"
                   data-role="accordion-icon-closed"
-                  className="home-icon15"
+                  className="home-icon13"
                 >
                   <path d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 1024 1024"
                   data-role="accordion-icon-open"
-                  className="home-icon17"
+                  className="home-icon15"
                 >
                   <path d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                 </svg>
@@ -381,14 +355,14 @@ const Home = (props) => {
                 <svg
                   viewBox="0 0 1024 1024"
                   data-role="accordion-icon-closed"
-                  className="home-icon19"
+                  className="home-icon17"
                 >
                   <path d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 1024 1024"
                   data-role="accordion-icon-open"
-                  className="home-icon21"
+                  className="home-icon19"
                 >
                   <path d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                 </svg>
@@ -416,14 +390,14 @@ const Home = (props) => {
                 <svg
                   viewBox="0 0 1024 1024"
                   data-role="accordion-icon-closed"
-                  className="home-icon23"
+                  className="home-icon21"
                 >
                   <path d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 1024 1024"
                   data-role="accordion-icon-open"
-                  className="home-icon25"
+                  className="home-icon23"
                 >
                   <path d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                 </svg>
