@@ -57,26 +57,6 @@
   width: 24px;
   height: 24px;
 }
-.offer-frame241 {
-  gap: 8px;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.offer-vector {
-  width: 24px;
-  height: 24px;
-}
-.offer-frame26 {
-  gap: 8px;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.offer-materialsymbolsgarageoutline {
-  width: 24px;
-  height: 24px;
-}
 .offer-container1 {
   flex: 0 0 auto;
   width: 100%;
@@ -85,19 +65,11 @@
   align-items: center;
   justify-content: space-between;
 }
-.offer-text6 {
+.offer-text3 {
   font-size: 24px;
   font-style: normal;
   font-family: Nunito;
   font-weight: 600;
-}
-.offer-button {
-  color: #ffffff;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-unit);
-  background-color: #080808;
 }
 @media(max-width: 991px) {
   .offer-image {
@@ -113,12 +85,6 @@
     justify-content: flex-start;
   }
   .offer-text1 {
-    width: auto;
-  }
-  .offer-text3 {
-    width: auto;
-  }
-  .offer-text4 {
     width: auto;
   }
 }

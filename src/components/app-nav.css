@@ -81,12 +81,16 @@
   width: 24px;
   height: 24px;
 }
+.app-nav-navlink {
+  display: contents;
+}
 .app-nav-container3 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
+  text-decoration: none;
 }
 .app-nav-icon04 {
   width: 24px;

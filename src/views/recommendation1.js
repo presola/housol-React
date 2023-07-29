@@ -34,8 +34,8 @@ const Recommendation1 = (props) => {
                 </label>
                 <select className="recommendation1-select">
                   <option value="Option 1">Option 1</option>
-                  <option value="select">Select Question 1</option>
                   <option value="Option 1">Option 1</option>
+                  <option value="select">Select Question 1</option>
                   <option value="Option 2">Option 2</option>
                   <option value="Option 2">Option 2</option>
                   <option value="Option 2">Option 2</option>
@@ -51,8 +51,8 @@ const Recommendation1 = (props) => {
                 <select className="recommendation1-select1">
                   <option value="Option 1">Option 1</option>
                   <option value="Option 1">Option 1</option>
-                  <option value="select">Select Question 1</option>
                   <option value="Option 1">Option 1</option>
+                  <option value="select">Select Question 1</option>
                   <option value="Option 2">Option 2</option>
                   <option value="Option 2">Option 2</option>
                   <option value="Option 2">Option 2</option>
@@ -69,9 +69,9 @@ const Recommendation1 = (props) => {
                 </label>
                 <select className="recommendation1-select2">
                   <option value="Option 1">Option 1</option>
-                  <option value="Option 1">Option 1</option>
-                  <option value="Option 1">Option 1</option>
                   <option value="select">Select Question 1</option>
+                  <option value="Option 1">Option 1</option>
+                  <option value="Option 1">Option 1</option>
                   <option value="Option 1">Option 1</option>
                   <option value="Option 2">Option 2</option>
                   <option value="Option 2">Option 2</option>
@@ -92,9 +92,9 @@ const Recommendation1 = (props) => {
                 <select className="recommendation1-select3">
                   <option value="Option 1">Option 1</option>
                   <option value="Option 1">Option 1</option>
-                  <option value="Option 1">Option 1</option>
-                  <option value="Option 1">Option 1</option>
                   <option value="select">Select Question 1</option>
+                  <option value="Option 1">Option 1</option>
+                  <option value="Option 1">Option 1</option>
                   <option value="Option 1">Option 1</option>
                   <option value="Option 2">Option 2</option>
                   <option value="Option 2">Option 2</option>
@@ -115,12 +115,12 @@ const Recommendation1 = (props) => {
                   What is your timeline for moving?
                 </label>
                 <select className="recommendation1-select4">
-                  <option value="Option 1">Option 1</option>
-                  <option value="Option 1">Option 1</option>
-                  <option value="Option 1">Option 1</option>
-                  <option value="Option 1">Option 1</option>
-                  <option value="Option 1">Option 1</option>
                   <option value="select">Select Question 1</option>
+                  <option value="Option 1">Option 1</option>
+                  <option value="Option 1">Option 1</option>
+                  <option value="Option 1">Option 1</option>
+                  <option value="Option 1">Option 1</option>
+                  <option value="Option 1">Option 1</option>
                   <option value="Option 1">Option 1</option>
                   <option value="Option 2">Option 2</option>
                   <option value="Option 2">Option 2</option>

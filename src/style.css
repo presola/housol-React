@@ -287,6 +287,13 @@
   font-weight: 700px;
   font-stretch: normal;
 }
+.Mediumfieldlabel {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Nunito Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
 .Heading2 {
   font-size: 48px;
   font-style: normal;
@@ -298,13 +305,6 @@
   font-size: 16px;
   font-style: normal;
   font-family: Nunito;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.Mediumfieldlabel {
-  font-size: 14px;
-  font-style: normal;
-  font-family: Nunito Sans;
   font-weight: 400px;
   font-stretch: normal;
 }

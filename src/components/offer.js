@@ -28,30 +28,9 @@ const Offer = (props) => {
               <span>4 Bed</span>
             </span>
           </div>
-          <div className="offer-frame241">
-            <img
-              alt="Vector7039"
-              src="/external/vector7039-6p39.svg"
-              className="offer-vector"
-            />
-            <span className="Smallbodytext offer-text3">3 Bath</span>
-          </div>
-          <div className="offer-frame26">
-            <img
-              alt="materialsymbolsgarageoutline7039"
-              src="/external/materialsymbolsgarageoutline7039-50ba.svg"
-              className="offer-materialsymbolsgarageoutline"
-            />
-            <span className="Smallbodytext offer-text4">
-              <span>2 Garage</span>
-            </span>
-          </div>
         </div>
         <div className="offer-container1">
-          <span className="offer-text6">{props.price}</span>
-          <button type="button" className="offer-button button">
-            {props.button}
-          </button>
+          <span className="offer-text3">{props.price}</span>
         </div>
       </div>
     </div>
@@ -63,7 +42,7 @@ Offer.defaultProps = {
   Guides: '3 Local guides',
   Description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-  Location: 'London, Ontario',
+  Location: 'Missouri, United States',
   price: '$560,000',
   button: 'More Details',
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -30,12 +31,14 @@ const AppNav = (props) => {
               </svg>
               <span>{props.text2}</span>
             </div>
-            <div className="app-nav-container3">
-              <svg viewBox="0 0 1024 1024" className="app-nav-icon04">
-                <path d="M938 296l-130 146q74 118 88 262h-86q-12-102-62-194l-172 194-170-172-256 256-64-64 320-320 170 172 122-140q-118-138-288-138-146 0-264 104l-60-60q144-128 324-128 204 0 346 158l122-136z"></path>
-              </svg>
-              <span>{props.text3}</span>
-            </div>
+            <Link to="/insights" className="app-nav-navlink">
+              <div className="app-nav-container3">
+                <svg viewBox="0 0 1024 1024" className="app-nav-icon04">
+                  <path d="M938 296l-130 146q74 118 88 262h-86q-12-102-62-194l-172 194-170-172-256 256-64-64 320-320 170 172 122-140q-118-138-288-138-146 0-264 104l-60-60q144-128 324-128 204 0 346 158l122-136z"></path>
+                </svg>
+                <span>{props.text3}</span>
+              </div>
+            </Link>
             <div className="app-nav-container4">
               <svg viewBox="0 0 1024 1024" className="app-nav-icon06">
                 <path d="M854 682v-512h-684v598l86-86h598zM854 86q34 0 59 25t25 59v512q0 34-25 60t-59 26h-598l-170 170v-768q0-34 25-59t59-25h684z"></path>

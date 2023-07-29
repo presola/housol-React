@@ -25,8 +25,8 @@ const AppHome = (props) => {
               <span className="app-home-text2">State</span>
               <select className="app-home-select">
                 <option value="select">Select State</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
+                <option value="missouri">Missouri</option>
+                <option value="california">2 Bedroom</option>
               </select>
             </div>
             <div className="app-home-container06">
@@ -35,8 +35,8 @@ const AppHome = (props) => {
                 <option value="select" selected>
                   Select Room Size
                 </option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
+                <option value="1">1 Bedroom</option>
+                <option value="2">Option 3</option>
               </select>
             </div>
             <div className="app-home-container07">
@@ -45,8 +45,8 @@ const AppHome = (props) => {
                 <option value="select" selected>
                   Select Price Range
                 </option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
+                <option value="50000">100000</option>
+                <option value="100000">20000</option>
               </select>
             </div>
           </div>
